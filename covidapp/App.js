@@ -1,22 +1,29 @@
-import * as React from 'react';
+import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+
 
 const instructions = Platform.select({
   ios: `Press Cmd+R to reload,\nCmd+D or shake for dev menu`,
   android: `Double tap R on your keyboard to reload,\nShake or press menu button for dev menu`,
 });
 
-function HelloWorldApp() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center"
-      }}>
-      <Text>Hello, world!</Text>
-    </View>
-  )
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <MapView
+         style={{ flex: 1 }}
+         provider={PROVIDER_GOOGLE}
+         showsUserLocation
+         initialRegion={{
+         latitude: 37.78825,
+         longitude: -122.4324,
+         latitudeDelta: 0.0922,
+         longitudeDelta: 0.0421}}
+      />
+    );
+  }
 }
 
 export default HelloWorldApp;
