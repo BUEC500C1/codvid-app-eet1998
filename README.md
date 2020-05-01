@@ -6,7 +6,7 @@ COVID-19 Tracker is a multi-platform application (web/iOS) that displays COVID-1
 This app is created using React Native.
 
 ## User Stories
-- As a public health professional, I want to know how many cases are in specific countries and how the virus is spreading.
-- As a citizen, I want to stay informed about how many cases are in my country.
-- As a journalist/news reporter, I want access to a reliable source of information about the number of global cases.
+* As a public health professional, I want to know how many cases are in specific countries and how the virus is spreading.
+* As a citizen, I want to stay informed about how many cases are in my country.
+* As a journalist/news reporter, I want access to a reliable source of information about the number of global cases.
 
