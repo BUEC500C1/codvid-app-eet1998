@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/BUEC500C1/codvid-app-eet1998#readme",
   "dependencies": {
-    "expo": "^37.0.6"
+    "expo": "^37.0.8"
   }
 }
