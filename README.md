@@ -14,3 +14,5 @@ COVID-19 Tracker is a multi-platform application (web/iOS) that displays COVID-1
 2. Navigate to the `/covidapp` directory.
 3. Type `expo start` to run the app.
 
+* Important: Unfortunately, I am having serious commit issues with Visual Studio, so I was unable to commit all of the app files (even after re-cloning the repository, deleting all files, and starting from scratch). So, I currently only have the App.js file in this repository.
+
