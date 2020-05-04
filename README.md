@@ -14,5 +14,8 @@ COVID-19 Tracker is a multi-platform application (web/iOS) that displays COVID-1
 2. Navigate to the `/covidapp` directory.
 3. Type `expo start` to run the app.
 
-* Important: Unfortunately, I am having serious commit issues with Visual Studio, so I was unable to commit all of the app files (even after re-cloning the repository, deleting all files, and starting from scratch). So, I currently only have the App.js file in this repository.
+## Errors
+
+* Unfortunately, I am having serious commit issues with Visual Studio, so I was unable to commit all of the app files (even after re-cloning the repository, deleting all files, and starting from scratch). So, I currently only have the App.js file in this repository.
+* I am unable to test my map because when I try to run `react-native link react-native-maps` I receive an error message that says: "Command `link` unrecognized. Make sure that you have run `npm install` and that you are inside a react-native project." Running `npm install` does not fix this, nor does deleting the `node_modules` folder and running `yarn`.
 
