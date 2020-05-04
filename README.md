@@ -18,6 +18,7 @@ COVID-19 Tracker is a multi-platform application (web/iOS) that displays COVID-1
 
 * Unfortunately, I am having serious commit issues with Visual Studio, so I was unable to commit all of the app files (even after re-cloning the repository, deleting all files, and starting from scratch). So, I currently only have the App.js file in this repository.
 * I am unable to test my map because when I try to run `react-native link react-native-maps` I receive an error message that says: "Command `link` unrecognized. Make sure that you have run `npm install` and that you are inside a react-native project." Running `npm install` does not fix this, nor does deleting the `node_modules` folder and running `yarn`.
+* Because I was having serious issues with React Native dependencies, I made a `data.py` file that parses the JSON data from the Covid-19 API to retrieve the number of confirmed cases for the inputted country.
 
 ## References
 - https://github.com/react-native-community/react-native-maps/blob/master/docs/installation.md
