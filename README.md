@@ -21,4 +21,5 @@ COVID-19 Tracker is a multi-platform application (web/iOS) that displays COVID-1
 
 ## References
 - https://github.com/react-native-community/react-native-maps/blob/master/docs/installation.md
+- https://covid19api.com/#details
 
